@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedir Cita</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ruta corregida -->
+</head>
+<body>
+    <header>
+        <h1>Av. d'Eduard Maristany, 59, 08930 Sant Adrià de Besòs, Barcelona — 648536312</h1>
+        <nav>
+            <ul>
+                <li><a href="https://fantastic-space-spoon-wrgx9xrq95qx3gjwq-5504.app.github.dev/pagina_principal.html">INICIO</a></li>
+                <li><a href="#">TIPOS DE PLANES</a></li>
+                <li><a href="https://fantastic-space-spoon-wrgx9xrq95qx3gjwq-5504.app.github.dev/Sobre%20Luxury.lan.html">SOBRE NOSOTROS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <div>
+            <h2>Teléfono de Contacto</h2>
+            <p>93 487 83 29</p>
+            <h3>Dirección</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18..."></iframe> <!-- Coloca el código de tu mapa de Google aquí -->
+        </div>
+
+        <div>
+            <h2>Pedir cita en nuestra central</h2>
+            <form action="/submit-form" method="POST">
+                <input type="text" name="name" placeholder="Nombre y apellidos" required>
+                <input type="text" name="phone" placeholder="Teléfono" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Hola, me gustaría..." required></textarea>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
